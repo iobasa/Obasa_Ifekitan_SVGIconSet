@@ -1,0 +1,107 @@
+body {
+  font-family: "interstate", sans-serif;
+  font-weight: 700;
+  font-style: black;
+  color: #000;
+  background-color: #FFB81A;
+}
+
+#siteContainer
+{
+	margin: 0 auto;
+	width: 1000px;
+  background-color: white;
+}
+
+#mainHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: solid 3px grey;
+}
+
+#logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo h1 {
+  color: grey;
+}
+
+#mainNav
+{
+	font-size: 20px;
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+}
+
+#mainNav li
+{
+	list-style: none;
+	display: inline;
+  font-weight: bold;
+}
+
+#mainNav a
+{
+	text-decoration: none;
+	padding: 5px;
+	color: green;
+}
+
+#mainNav a:hover
+{
+	text-decoration: none;
+	color: black;
+}
+
+
+#image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+
+#image-container img
+{
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+	filter: grayscale(0%);
+
+  width: 200px;
+  height: 200px;
+  align-self: stretch;
+
+  transition: 2s;
+
+}
+
+#image-container img:hover
+{
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  filter: grayscale(50%);
+
+  width: 150px;
+  height: 150px;
+}
+
+#image-container p {
+  line-height: 22px;
+  color: #666;
+  font-size: 16px;
+}
+
+#Images {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+  margin-top: 50px;
+}
